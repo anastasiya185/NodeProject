@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font: 16px/28px/ "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background-color: rgb(79, 165, 235);
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+.shopMainPage {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-weight: 400;
+}
+
+#svShop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 70px;
+  width: 300px;
+  color: black;
+}
+
+#detailsMainPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 150px;
+}
+
+#buttonsMainPage {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#email {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: rgb(41, 100, 251);
+}
+#email::placeholder {
+  color: black;
+}
+
+#password {
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid blue;
+  border-radius: 5px;
+  background-color: rgb(41, 100, 251);
+}
+#password::placeholder {
+  color: black;
+}
+
+#signinMainPage {
+  height: 30px;
+  width: 80px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+#signupMainPage {
+  height: 30px;
+  width: 80px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}

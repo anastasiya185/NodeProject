@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="script1.js"></script>
+</head>
+
+<body>
+    
+   
+    <div id="container" class="container">
+        <div class="grid-container">
+            <div>
+                <select id="sortSelect">
+                    <option value="0">--Select--</option>
+                    <option value="1">By name</option>
+                    <option value="2">By price</option>
+                </select>
+            </div>
+
+            <div>
+                Sv-Shop
+            </div>
+
+            <div>
+                <button onclick="sort()" class="sort-btn">Sort</button>
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+    <script>
+        getProducts()
+    </script>
+</body>
+
+
+</html>

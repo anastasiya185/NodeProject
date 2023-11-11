@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font: 16px/28px/ "Be Vietnam Pro", Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: rgb(79, 165, 235);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.buy-btn {
+    cursor: pointer;
+    width: 80px;
+    height: 26px;
+    border-radius: 5px;
+
+}
+
+.sort-btn {
+    cursor: pointer;
+    width: 60px;
+    height: 26px;
+    border-radius: 5px;
+}
+
+.products-list {
+
+    grid-column: span 3;
+}
+
+
+.grid-item-buy {
+    grid-column-start: 2;
+}
+
+.grid-item-buy {
+    vertical-align: bottom ;
+    align-items: center;
+    
+}
+
+th {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .name {
+    width: 60%;
+  }
+
+  table{
+    width: 100%;
+  }
+
+  tr:hover {background-color: black;}
